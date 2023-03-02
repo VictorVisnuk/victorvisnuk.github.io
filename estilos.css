@@ -1,0 +1,60 @@
+*{
+	background: #cd716b;
+}
+header img {
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	padding: 3px;
+	margin: 10px;
+}
+
+
+
+section{
+	text-align: justify;
+	padding: 20px 10%;
+	font-size: 20px;
+}
+button{
+	border: none;
+}
+
+#Perfil{
+	display: block;
+
+}
+
+#Habilidades{
+	display: none;
+}
+
+#Idiomas{
+	display: none;
+}
+#Software{
+	display: none;
+}
+#Experiencia{
+	display: none;
+}
+#Formación{
+	display: none;
+}
+
+#Experiencia div {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 3px;
+}
+
+#Formación div {
+	border: 1px solid black;
+	margin: 5px;
+	padding: 3px;
+}
+
+.borderColor{
+	background-image: linear-gradient(#cd716b, #666);
+
+}
