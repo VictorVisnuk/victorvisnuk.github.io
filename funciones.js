@@ -1,3 +1,4 @@
+
 function MostrarPerfil(){
 		document.getElementById("Perfil").style.display = "block";
 		document.getElementById("Habilidades").style.display= "none";
