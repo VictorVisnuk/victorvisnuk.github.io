@@ -15,19 +15,19 @@
 <body>
 	<header>
 		<div class="d-flex align-items-center">
-  			<div class="flex-shrink-0">
-    				<img src="https://randomuser.me/api/portraits/men/57.jpg" alt="Foto de Perfil">
-  			</div>
-  		<div>
-    			<div class="row">
-				<h1>Angel Freeman</h1>
-			</div>
-			<div class="row">
-				<h2>Desarrollador Web</h2>
-  			</div>
-		</div>
+  <div class="flex-shrink-0">
+    <img src="https://randomuser.me/api/portraits/men/57.jpg" alt="Foto de Perfil">
+  </div>
+  <div>
+    <div class="row">
+					<h1>Angel Freeman</h1>
+				</div>
+				<div class="row">
+					<h2>Desarrollador Web</h2>
+  </div>
+</div>
 	</header>
-	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav">
   		<div class="container-fluid">
     		<a class="navbar-brand" href="#">Contenido</a>
     		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +36,23 @@
     		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       			<div class="navbar-nav">
         			<button class="nav-link borderColor" onclick="MostrarPerfil()" id = "PNav">
-        				<img src="https://w7.pngwing.com/pngs/825/857/png-transparent-computer-icons-user-profile-user-silhouette-apple-icon-image-format-user-profile.png" alt="Perfil" width="30" height="30" class="d-inline-block align-text-center"> Perfil Profesional
+        				<img class="borderColor" src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Perfil" width="30" height="30" class="d-inline-block align-text-center"> Perfil Profesional
         			</button>
         			<button class="nav-link" onclick="MostrarHabilidades()" id = "HNav">
-        				<img src="https://cdn-icons-png.flaticon.com/512/4406/4406423.png" alt="Habilidades" width="30" height="30" class="d-inline-block align-text-center"> Habilidades
+        				<img class="borderColor" src="https://cdn-icons-png.flaticon.com/512/4406/4406423.png" alt="Habilidades" width="30" height="30" class="d-inline-block align-text-center"> Habilidades
         				
         			</button>
         			<button class="nav-link" onclick="MostrarIdiomas()" id = "INav">
-        				<img src="https://cdn-icons-png.flaticon.com/512/2105/2105052.png" alt="Idiomas" width="30" height="30" class="d-inline-block float-left pull-left"> Idiomas
+        				<img class="borderColor" src="https://cdn-icons-png.flaticon.com/512/2105/2105052.png" alt="Idiomas" width="30" height="30" class="d-inline-block float-left pull-left"> Idiomas
         			</button>
         			<button class="nav-link" onclick="MostrarSoftware()" id = "SNav">
-        				<img src="https://cdn-icons-png.flaticon.com/512/4882/4882466.png" alt="Software" width="30" height="30" class="d-inline-block align-text-center"> Software
+        				<img class="borderColor" src="https://cdn-icons-png.flaticon.com/512/4882/4882466.png" alt="Software" width="30" height="30" class="d-inline-block align-text-center"> Software
         			</button>
         			<button class="nav-link" onclick="MostrarExperiencia()" id = "ENav">
-        				<img src="https://images.squarespace-cdn.com/content/v1/6053d71c76d57952b0511089/1616175791207-03AVW7NDODSRAO7374B8/3.png" alt="Experiencia" width="30" height="30" class="d-inline-block align-text-center"> Experiencia Laboral
+        				<img class="borderColor" src="https://images.squarespace-cdn.com/content/v1/6053d71c76d57952b0511089/1616175791207-03AVW7NDODSRAO7374B8/3.png" alt="Experiencia" width="30" height="30" class="d-inline-block align-text-center"> Experiencia Laboral
         			</button>
         			<button class="nav-link" onclick="MostrarFormación()" id = "FNav">
-        				<img src="https://cdn-icons-png.flaticon.com/512/2599/2599319.png" alt="Formación" width="30" height="30" class="d-inline-block align-text-center"> Formación Academica
+        				<img class="borderColor" src="https://cdn-icons-png.flaticon.com/512/2599/2599319.png" alt="Formación" width="30" height="30" class="d-inline-block align-text-center"> Formación Academica
         			</button>
       			</div>
     		</div>
@@ -123,21 +123,21 @@
 	</section>
 
 	<footer class="py-3 mt-auto">
-		<ul class="nav justify-content-center border-bottom pb-3 mb-3 border-dark">
+		<ul class="nav justify-content-center pb-3 mb-3">
 			<li class="nav-item">
-				<a href="https://www.linkedin.com/" class="nav-link px-2 text-muted"> Linkedin </a>
+				<a href="https://www.linkedin.com/" class="nav-link px-2 text-light"> Linkedin </a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.facebook.com/" class="nav-link px-2 text-muted"> Facebook </a>
+				<a href="https://www.facebook.com/" class="nav-link px-2 text-light"> Facebook </a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.instagram.com/" class="nav-link px-2 text-muted"> Instagram </a>
+				<a href="https://www.instagram.com/" class="nav-link px-2 text-light"> Instagram </a>
 			</li>
 			<li class="nav-item">
-				<a href="https://www.twitter.com/" class="nav-link px-2 text-muted"> Twitter </a>
+				<a href="https://www.twitter.com/" class="nav-link px-2 text-light	"> Twitter </a>
 			</li>
 		</ul>
-		<p class="text-center text-muted">Contacto: -Tel: +549 999 9999 -Email: angelfreeman@gmail.com</p>
+		<p class="text-center text-light">Contacto: -Tel: +549 999 9999 -Email: angelfreeman@gmail.com</p>
 	</footer>
 </body>
 </html>

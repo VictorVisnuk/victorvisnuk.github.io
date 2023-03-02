@@ -1,5 +1,6 @@
 *{
-	background: #cd716b;
+	background: #202124;
+	color: 	#fff;
 }
 header img {
 	border-radius: 100%;
@@ -42,18 +43,32 @@ button{
 }
 
 #Experiencia div {
-	border: 1px solid black;
+	border: 1px solid #695d16;
 	margin: 5px;
 	padding: 3px;
 }
 
 #Formación div {
-	border: 1px solid black;
+	border: 1px solid #695d16;
 	margin: 5px;
 	padding: 3px;
 }
 
 .borderColor{
-	background-image: linear-gradient(#cd716b, #444);
+	background-image: radial-gradient(#695d16, #202124);
 
+}
+
+footer{
+	color: 	#000;
+}
+#nav{
+	padding: 0;
+	border-top: 0.3em solid #695d16;
+	border-bottom: 0.4em solid #695d16;
+}
+
+footer ul {
+	border-top: 1px solid #695d16;
+	border-bottom: 1px solid #695d16;
 }
